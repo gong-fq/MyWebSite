@@ -1,0 +1,7 @@
+{
+  "name": "Prof. Gong's English Learning Hub",
+  "description": "A comprehensive 12-week English grammar learning platform for primary and middle school students, featuring AI assistance, bilingual support, and interactive exercises.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
