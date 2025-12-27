@@ -15,6 +15,8 @@ jobs:
         run: npm install || npm install --legacy-peer-deps
       - name: Build project
         run: npm run build
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY=gen-lang-client-0904771834}} # 关键：这一步把网页密钥传给编译器
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
